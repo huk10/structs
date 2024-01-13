@@ -1,0 +1,29 @@
+{
+  "name": "structs",
+  "version": "1.0.0",
+  "description": "some data structure tools.",
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage",
+    "prepare": "husky install"
+  },
+  "author": "Hu Kun",
+  "license": "MIT",
+  "lint-staged": {
+    "*.{json,md}": "prettier --write",
+    "*.{ts,mts,js,mjs}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4",
+    "eslint-plugin-prettier": "5.0.1"
+  }
+}
