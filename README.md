@@ -1,6 +1,6 @@
 # Structs
 
----
+[![MIT License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/huk10/structs/blob/master/LICENSE)
 
 **Structs** is a JavaScript tool library that contains some commonly used data structure algorithms.
 
